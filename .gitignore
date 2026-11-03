@@ -1,0 +1,26 @@
+# upstream sources (clone separately, see README "Getting the sources")
+AFLplusplus/
+FormatFuzzer/
+
+# target deps (cloned into target/, see README)
+target/zlib/
+target/libpng/
+
+# build artifacts
+target/build/
+target/png_harness
+*.o
+*.so
+ffmut/ffmut-*.so
+
+# fuzzing outputs
+out_*/
+/tmp/
+
+# python
+__pycache__/
+*.pyc
+
+# editor/OS noise
+.vscode/
+.DS_Store
